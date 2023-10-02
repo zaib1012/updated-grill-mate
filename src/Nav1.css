@@ -326,8 +326,9 @@ padding: 1%;
     .nav-link{font-size: 10px; margin-left: 10%; padding: 3px; flex-direction: row;}
     .search-div{margin-left:5%; margin-top: 0;}
     .main-search{ width: 37px;  font-size: 50%; margin-left: -30; }
-    .bi{font-size: 8px; margin-top: 12px;}
+    .bi{font-size: 8px; margin-top: 10px;}
     /* Main-banner*/
+   .main-banner{margin-left: 1%;}
     .main-banner .main-left{height: 50%;margin-top: 5%; margin-left: 1%;}
     .mbmh{font-size: 10px; }
     .mbsh{font-size: 15px; }
