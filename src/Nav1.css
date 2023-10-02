@@ -21,7 +21,7 @@ padding: 0%;
     color: #DCCA87;
 }
 .search-div{
-    height: 1%;
+    height: 1%
     margin-right: 3%;
     width: 12%;
 }
@@ -321,15 +321,16 @@ padding: 1%;
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
   /* Navabr*/
-    .main-logo{height: 10%; width:10%;}
-    .nav-link{font-size: 15%;}
-    .search-div{margin-left:50%; margin-top: 0;}
-    .main-search{ width: 100%;  font-size: 50%; margin-top: 0; }
-    .bi{font-size: 50%;}
+    .main-logo{height: 15%; width:15%;}
+    .navbar{flex-wrap: nowrap;}
+    .nav-link{font-size: 10px; margin-left: 10%; padding: 3px; flex-direction: row;}
+    .search-div{margin-left:5%; margin-top: 0;}
+    .main-search{ width: 37px;  font-size: 50%; margin-left: -30; }
+    .bi{font-size: 8px; margin-top: 12px;}
     /* Main-banner*/
-    .main-banner .main-left{height: 50%;margin-top: 5%;}
-    .mbfh{font-size: 15px; }
-    .mbsh{font-size: 25px; }
+    .main-banner .main-left{height: 50%;margin-top: 5%; margin-left: 1%;}
+    .mbmh{font-size: 10px; }
+    .mbsh{font-size: 15px; }
     .mbd{font-size: 9px; }
     .mbb{font-size: 8px; margin-top: 0px;}
     /*second-banner*/
@@ -340,32 +341,32 @@ padding: 1%;
     .sbld{font-size: 10px;}
     .sblb{font-size: 10px;}
     /*second-banner-mid*/
-    .second-banner-mid{margin-top: 45%; margin-left: 46.5%;}
+    .second-banner-mid{margin-top: 95%; margin-left: 46.5%;}
     .mid-img{ height: 100px; }
      /*second-banner-right*/
-     .second-banner-right{text-align: center; margin-top: 70%; margin-left: 31%;}
+     .second-banner-right{text-align: center; margin-top: 135%; margin-left: 31%;}
      .sbrmh{font-size: 10px;}
      .sbrd{font-size: 10px;}
      .sbrb{font-size: 10px;}
      /*third-banner*/
- .third-banner{height: 60%; margin-top: 130%;}
-    .tbmh{font-size: 17px;margin-left: 16%;}
-    .tbe{margin-top: 20%; margin-left: 4%;}
+ .third-banner{height: 40%; margin-top: 230%;}
+    .tbmh{font-size: 15px;margin-left: 10%; margin-top: 20%;}
+    .tbe{margin-top: 0%; margin-left: 4%;}
     .tbif{margin-left: 15%;}
     .if1{margin-top: 0%; margin-left: 0%; position: absolute; }
-    .if2{margin-top: 10%; margin-left: 0%;position: absolute; }
-    .if3{margin-top: 20%;  position: absolute;font-size: 10px;}
-    .tbb{margin-top: 35%; margin-left: 26%;position: absolute;  }
-    .tbbs{font-size: 10px;}
-    .time{margin-top: 20%; margin-left: 0%; position: absolute;}
-    .people{margin-top: 40%; margin-left: 0%;position: absolute; }
+    .if2{margin-top: 19%; margin-left: 0%;position: absolute; }
+    .if3{margin-top: 38%;  position: absolute;font-size: 10px;}
+    .tbb{margin-top: 55%; margin-left: 26%;position: absolute;  }
+    .tbbs{font-size: 8px;}
+    .time{padding-top:  39%; position: absolute;}
+    .people{padding-top:  58%; ;position: absolute; }
     .dtp{margin-left: 15%;font-size: 10px;}
-    .dtp .date{margin-left: 9%;}
+    .dtp .date{margin-left: 9%; margin-top: 50%;}
     .tbif  input, select{font-size: 10px;}
     /*fourth-banner*/
-    .fourth-banner{margin-top: 230%;}
-    .fourth-banner-left img{height: 270px;width: 200px; margin-left: 30%;}
-    .fourth-banner-right{margin-top: 60%; margin-left: 30%;}
+    .fourth-banner{margin-top: 360%;}
+    .fourth-banner-left img{height: 270px;width: 200px; margin-left: 15%;}
+    .fourth-banner-right{margin-top: 90%; margin-left: 15%;}
     .frbmh{font-size: 10px;}
     .frbsh{font-size: 10px;}
     .frbth{font-size: 10px;}
@@ -374,7 +375,7 @@ padding: 1%;
     .sign{width: 20%;height: 20%; }
     .frbd{ font-size: 10px;}
     /*fifth-banner*/
-    .fifth-banner{margin-top: 80%;}
+    .fifth-banner{margin-top: 130%;}
     .fbmh{font-size: 15px;}
     .fbsh{font-size: 20px;}
     .card{height:100% ;width: 60%; margin-left: 27%;}
@@ -383,21 +384,22 @@ padding: 1%;
     .fbd{font-size: 10px; width: 70%;}
     .fbb{font-size: 12px;}
     /*sixth-banner*/
-    .sixth-banner{height: 300px; width: 70%; margin-left: 15%;}
+    .sixth-banner{height: 280px; width: 80%; margin-left: 10%;}
     .sbu{padding-top:20%;}
-    .sbmh{font-size: 18px;}
-    .sbsh{font-size: 15px;}
-    .sbth{font-size: 18px;}
-    .sbb{font-size: 10px; margin-left: 26%;}
+    .sbmh{font-size: 15px;}
+    .sbsh{font-size: 13px;}
+    .sbth{font-size: 13px;}
+    .sbb{font-size: 10px; margin-left: 46%;}
+    .sbl{margin-left: 30px;}
     .input-group-text{font-size: 10px;  width: 70%; }
     /*footer*/
-    .footer-right{margin-right: 3%;}
-    .frmh{font-size: 12px;}
+    .footer-right{margin-right: 3%; }
+    .frmh{font-size: 10px; }
     .fmmh{font-size: 15px;}
     .flmh{font-size: 12px;}
     .fmd{font-size: 12px; width: 20%; margin-left: 40%;}
     .para{font-size: 12px; }  
-   .bi1{font-size: 12px; } 
+   .bi1{font-size: 12px;;} 
  }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
